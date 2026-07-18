@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "title": "Minha Rotina",
+    "version": 1,
+    "restDefaultSeconds": 90
+  },
+
+  "exercises": {
+    "supino-reto-halteres": {
+      "name": "Supino reto com halteres",
+      "muscleGroup": "Peito",
+      "image": "assets/exercises/supino-reto-halteres.jpg",
+      "execution": [
+        "ROM parcial",
+        "Cotovelo não desce abaixo da linha do tronco"
+      ]
+    },
+    "supino-maquina": {
+      "name": "Supino máquina",
+      "muscleGroup": "Peito",
+      "image": "assets/exercises/supino-maquina.jpg",
+      "execution": []
+    },
+    "crucifixo-cabo": {
+      "name": "Crucifixo no cabo",
+      "muscleGroup": "Peito",
+      "image": "assets/exercises/crucifixo-cabo.jpg",
+      "execution": [
+        "Polia alta",
+        "Iniciando na altura do ombro"
+      ]
+    },
+    "desenvolvimento-halteres": {
+      "name": "Desenvolvimento com halteres",
+      "muscleGroup": "Ombro",
+      "image": "assets/exercises/desenvolvimento-halteres.jpg",
+      "execution": [
+        "Pegada neutra",
+        "ROM parcial"
+      ]
+    },
+    "elevacao-lateral": {
+      "name": "Elevação lateral",
+      "muscleGroup": "Ombro",
+      "image": "assets/exercises/elevacao-lateral.jpg",
+      "execution": [
+        "Até 90°",
+        "Nunca acima"
+      ]
+    },
+    "panturrilha-em-pe": {
+      "name": "Panturrilha em pé",
+      "muscleGroup": "Panturrilha",
+      "image": "assets/exercises/panturrilha-em-pe.jpg",
+      "execution": [
+        "Pés abertos"
+      ]
+    },
+
+    "puxada-triangulo": {
+      "name": "Puxada triângulo",
+      "muscleGroup": "Costas",
+      "image": "assets/exercises/puxada-triangulo.jpg",
+      "execution": [
+        "Pegada neutra"
+      ]
+    },
+    "remada-curvada": {
+      "name": "Remada curvada",
+      "muscleGroup": "Costas",
+      "image": "assets/exercises/remada-curvada.jpg",
+      "execution": [
+        "Pegada pronada"
+      ]
+    },
+    "remada-unilateral-serrote": {
+      "name": "Remada unilateral serrote",
+      "muscleGroup": "Costas",
+      "image": "assets/exercises/remada-unilateral-serrote.jpg",
+      "execution": [
+        "Apoiado no banco"
+      ]
+    },
+    "pull-over-cabo": {
+      "name": "Pull-over no cabo",
+      "muscleGroup": "Costas",
+      "image": "assets/exercises/pull-over-cabo.jpg",
+      "execution": []
+    },
+    "rosca-direta-barra-w": {
+      "name": "Rosca direta barra W",
+      "muscleGroup": "Bíceps",
+      "image": "assets/exercises/rosca-direta-barra-w.jpg",
+      "execution": []
+    },
+    "rosca-alternada": {
+      "name": "Rosca alternada",
+      "muscleGroup": "Bíceps",
+      "image": "assets/exercises/rosca-alternada.jpg",
+      "execution": []
+    },
+
+    "triceps-corda": {
+      "name": "Tríceps corda",
+      "muscleGroup": "Tríceps",
+      "image": "assets/exercises/triceps-corda.jpg",
+      "execution": []
+    },
+    "triceps-coice": {
+      "name": "Tríceps coice",
+      "muscleGroup": "Tríceps",
+      "image": "assets/exercises/triceps-coice.jpg",
+      "execution": []
+    },
+    "rotacao-externa-deitado": {
+      "name": "Rotação externa deitado",
+      "muscleGroup": "Prevenção Ombro",
+      "image": "assets/exercises/rotacao-externa-deitado.jpg",
+      "execution": []
+    },
+    "face-pull": {
+      "name": "Face pull",
+      "muscleGroup": "Prevenção Ombro",
+      "image": "assets/exercises/face-pull.jpg",
+      "execution": []
+    },
+    "prancha": {
+      "name": "Prancha",
+      "muscleGroup": "Core",
+      "image": "assets/exercises/prancha.jpg",
+      "execution": []
+    },
+    "abdominal-infra": {
+      "name": "Abdominal infra",
+      "muscleGroup": "Core",
+      "image": "assets/exercises/abdominal-infra.jpg",
+      "execution": []
+    },
+
+    "mesa-flexora": {
+      "name": "Mesa flexora",
+      "muscleGroup": "Posterior",
+      "image": "assets/exercises/mesa-flexora.jpg",
+      "execution": []
+    },
+    "stiff-halteres": {
+      "name": "Stiff com halteres",
+      "muscleGroup": "Posterior",
+      "image": "assets/exercises/stiff-halteres.jpg",
+      "execution": []
+    },
+    "cadeira-flexora-unilateral": {
+      "name": "Cadeira flexora unilateral",
+      "muscleGroup": "Posterior",
+      "image": "assets/exercises/cadeira-flexora-unilateral.jpg",
+      "execution": []
+    },
+    "rosca-scott": {
+      "name": "Rosca Scott",
+      "muscleGroup": "Bíceps",
+      "image": "assets/exercises/rosca-scott.jpg",
+      "execution": []
+    },
+    "rosca-martelo": {
+      "name": "Rosca martelo",
+      "muscleGroup": "Bíceps",
+      "image": "assets/exercises/rosca-martelo.jpg",
+      "execution": []
+    },
+
+    "leg-press-45": {
+      "name": "Leg press 45°",
+      "muscleGroup": "Quadríceps",
+      "image": "assets/exercises/leg-press-45.jpg",
+      "execution": [
+        "Pés baixos e juntos"
+      ]
+    },
+    "agachamento-livre": {
+      "name": "Agachamento livre",
+      "muscleGroup": "Quadríceps",
+      "image": "assets/exercises/agachamento-livre.jpg",
+      "execution": [
+        "Carga baixa"
+      ]
+    },
+    "cadeira-extensora": {
+      "name": "Cadeira extensora",
+      "muscleGroup": "Quadríceps",
+      "image": "assets/exercises/cadeira-extensora.jpg",
+      "execution": []
+    },
+    "agachamento-bulgaro": {
+      "name": "Agachamento búlgaro",
+      "muscleGroup": "Quadríceps",
+      "image": "assets/exercises/agachamento-bulgaro.jpg",
+      "execution": []
+    },
+    "panturrilha-sentado": {
+      "name": "Panturrilha sentado",
+      "muscleGroup": "Panturrilha",
+      "image": "assets/exercises/panturrilha-sentado.jpg",
+      "execution": []
+    }
+  },
+
+  "week": {
+    "1": {
+      "label": "Peito/Ombro",
+      "items": [
+        { "exerciseId": "supino-reto-halteres", "sets": 4, "reps": "5-8" },
+        { "exerciseId": "supino-maquina", "sets": 3, "reps": "6-8" },
+        { "exerciseId": "crucifixo-cabo", "sets": 3, "reps": "10-12" },
+        { "exerciseId": "desenvolvimento-halteres", "sets": 3, "reps": "6-8" },
+        { "exerciseId": "elevacao-lateral", "sets": 3, "reps": "12-15" },
+        { "exerciseId": "panturrilha-em-pe", "sets": 3, "reps": "15-20" }
+      ]
+    },
+    "3": {
+      "label": "Costas/Bíceps",
+      "items": [
+        { "exerciseId": "puxada-triangulo", "sets": 4, "reps": "5-8" },
+        { "exerciseId": "remada-curvada", "sets": 4, "reps": "5-8" },
+        { "exerciseId": "remada-unilateral-serrote", "sets": 3, "reps": "6-8 cada lado" },
+        { "exerciseId": "pull-over-cabo", "sets": 3, "reps": "8-10" },
+        { "exerciseId": "rosca-direta-barra-w", "sets": 3, "reps": "10-12" },
+        { "exerciseId": "rosca-alternada", "sets": 3, "reps": "10-12" },
+        { "exerciseId": "panturrilha-em-pe", "sets": 3, "reps": "15-20" }
+      ]
+    },
+    "4": {
+      "label": "Tríceps/Prevenção Ombro/Core",
+      "items": [
+        { "exerciseId": "triceps-corda", "sets": 3, "reps": "12-15" },
+        { "exerciseId": "triceps-coice", "sets": 3, "reps": "12-15" },
+        { "exerciseId": "rotacao-externa-deitado", "sets": 3, "reps": "15-20" },
+        { "exerciseId": "face-pull", "sets": 3, "reps": "15" },
+        { "exerciseId": "prancha", "sets": 3, "reps": "40-60s" },
+        { "exerciseId": "abdominal-infra", "sets": 3, "reps": "15" },
+        { "exerciseId": "panturrilha-em-pe", "sets": 3, "reps": "15-20" }
+      ]
+    },
+    "5": {
+      "label": "Posterior/Bíceps",
+      "items": [
+        { "exerciseId": "mesa-flexora", "sets": 4, "reps": "10-15" },
+        { "exerciseId": "stiff-halteres", "sets": 3, "reps": "10-12" },
+        { "exerciseId": "cadeira-flexora-unilateral", "sets": 3, "reps": "12-15" },
+        { "exerciseId": "rosca-scott", "sets": 4, "reps": "10-12" },
+        { "exerciseId": "rosca-martelo", "sets": 3, "reps": "10-12" },
+        { "exerciseId": "panturrilha-em-pe", "sets": 3, "reps": "15-20" }
+      ]
+    },
+    "6": {
+      "label": "Quadríceps",
+      "items": [
+        { "exerciseId": "leg-press-45", "sets": 4, "reps": "10-15" },
+        { "exerciseId": "agachamento-livre", "sets": 3, "reps": "10-15" },
+        { "exerciseId": "cadeira-extensora", "sets": 4, "reps": "12-15" },
+        { "exerciseId": "agachamento-bulgaro", "sets": 3, "reps": "10-12 cada perna" },
+        { "exerciseId": "panturrilha-em-pe", "sets": 4, "reps": "15-20" },
+        { "exerciseId": "panturrilha-sentado", "sets": 3, "reps": "15-20" }
+      ]
+    }
+  }
+}

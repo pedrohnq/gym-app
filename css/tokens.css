@@ -1,0 +1,59 @@
+/* 03 — Design tokens. Tema dark padrão. Ver docs/03-design-spec.md */
+:root {
+  /* Cores */
+  --bg: #0B0D10;
+  --surface: #14181D;
+  --surface-2: #1C2229;
+  --border: #2A313A;
+
+  --text: #F2F5F7;
+  --text-muted: #9BA6B2;
+  --text-faint: #63707D;
+
+  --accent: #3DDC97;
+  --accent-press: #33C085;
+  --on-accent: #0B0D10;
+
+  --rest: #4FA3FF;
+  --warn: #FFB84D;
+  --danger: #FF5D5D;
+
+  --overlay: rgba(0, 0, 0, .6);
+
+  /* Espaçamento */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+
+  /* Raios */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+
+  /* Sombras (discretas no dark) */
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .3);
+  --shadow-2: 0 8px 24px rgba(0, 0, 0, .35);
+
+  /* Tipografia */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+  --fs-display: 2.5rem;
+  --fs-h1: 1.5rem;
+  --fs-h2: 1.25rem;
+  --fs-body: 1rem;
+  --fs-label: 0.875rem;
+  --fs-caption: 0.75rem;
+
+  /* Motion */
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --dur-fast: 120ms;
+  --dur: 180ms;
+
+  /* Layout */
+  --container: 520px;
+  --touch: 48px;
+}

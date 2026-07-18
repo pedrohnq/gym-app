@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-label="Ilustração indisponível">
+  <rect width="320" height="200" fill="#1C2229"/>
+  <g fill="none" stroke="#3A4450" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 84v32M84 72v56M236 72v56M224 84v32"/>
+    <path d="M120 100h80"/>
+  </g>
+  <text x="160" y="168" text-anchor="middle" fill="#63707D" font-family="sans-serif" font-size="15">Ilustração do exercício</text>
+</svg>
