@@ -6,10 +6,10 @@
   },
 
   "exercises": {
-    "supino-reto-halteres": {
-      "name": "Supino reto com halteres",
+    "supino-inclinado-halteres": {
+      "name": "Supino inclinado com halteres",
       "muscleGroup": "Peito",
-      "image": "assets/exercises/supino-reto-halteres.jpg",
+      "image": "assets/exercises/supino-inclinado-halteres.jpg",
       "execution": [
         "ROM parcial",
         "Cotovelo não desce abaixo da linha do tronco"
@@ -208,8 +208,8 @@
     "1": {
       "label": "Peito/Ombro",
       "items": [
-        { "exerciseId": "supino-reto-halteres", "sets": 4, "reps": "5-8" },
         { "exerciseId": "supino-maquina", "sets": 3, "reps": "6-8" },
+        { "exerciseId": "supino-inclinado-halteres", "sets": 4, "reps": "5-8" },
         { "exerciseId": "crucifixo-cabo", "sets": 3, "reps": "10-12" },
         { "exerciseId": "desenvolvimento-halteres", "sets": 3, "reps": "6-8" },
         { "exerciseId": "elevacao-lateral", "sets": 3, "reps": "12-15" },
