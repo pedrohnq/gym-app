@@ -217,6 +217,17 @@
       ]
     },
     "3": {
+      "label": "Quadríceps",
+      "items": [
+        { "exerciseId": "leg-press-45", "sets": 4, "reps": "10-15" },
+        { "exerciseId": "agachamento-livre", "sets": 3, "reps": "10-15" },
+        { "exerciseId": "cadeira-extensora", "sets": 4, "reps": "12-15" },
+        { "exerciseId": "agachamento-bulgaro", "sets": 3, "reps": "10-12 cada perna" },
+        { "exerciseId": "panturrilha-em-pe", "sets": 4, "reps": "15-20" },
+        { "exerciseId": "panturrilha-sentado", "sets": 3, "reps": "15-20" }
+      ]
+    },
+    "4": {
       "label": "Costas/Bíceps",
       "items": [
         { "exerciseId": "puxada-triangulo", "sets": 4, "reps": "5-8" },
@@ -225,18 +236,6 @@
         { "exerciseId": "pull-over-cabo", "sets": 3, "reps": "8-10" },
         { "exerciseId": "rosca-direta-barra-w", "sets": 3, "reps": "10-12" },
         { "exerciseId": "rosca-alternada", "sets": 3, "reps": "10-12" },
-        { "exerciseId": "panturrilha-em-pe", "sets": 3, "reps": "15-20" }
-      ]
-    },
-    "4": {
-      "label": "Tríceps/Prevenção Ombro/Core",
-      "items": [
-        { "exerciseId": "triceps-corda", "sets": 3, "reps": "12-15" },
-        { "exerciseId": "triceps-coice", "sets": 3, "reps": "12-15" },
-        { "exerciseId": "rotacao-externa-deitado", "sets": 3, "reps": "15-20" },
-        { "exerciseId": "face-pull", "sets": 3, "reps": "15" },
-        { "exerciseId": "prancha", "sets": 3, "reps": "40-60s" },
-        { "exerciseId": "abdominal-infra", "sets": 3, "reps": "15" },
         { "exerciseId": "panturrilha-em-pe", "sets": 3, "reps": "15-20" }
       ]
     },
@@ -252,14 +251,15 @@
       ]
     },
     "6": {
-      "label": "Quadríceps",
+      "label": "Tríceps/Prevenção Ombro/Core",
       "items": [
-        { "exerciseId": "leg-press-45", "sets": 4, "reps": "10-15" },
-        { "exerciseId": "agachamento-livre", "sets": 3, "reps": "10-15" },
-        { "exerciseId": "cadeira-extensora", "sets": 4, "reps": "12-15" },
-        { "exerciseId": "agachamento-bulgaro", "sets": 3, "reps": "10-12 cada perna" },
-        { "exerciseId": "panturrilha-em-pe", "sets": 4, "reps": "15-20" },
-        { "exerciseId": "panturrilha-sentado", "sets": 3, "reps": "15-20" }
+        { "exerciseId": "triceps-corda", "sets": 3, "reps": "12-15" },
+        { "exerciseId": "triceps-coice", "sets": 3, "reps": "12-15" },
+        { "exerciseId": "rotacao-externa-deitado", "sets": 3, "reps": "15-20" },
+        { "exerciseId": "face-pull", "sets": 3, "reps": "15" },
+        { "exerciseId": "prancha", "sets": 3, "reps": "40-60s" },
+        { "exerciseId": "abdominal-infra", "sets": 3, "reps": "15" },
+        { "exerciseId": "panturrilha-em-pe", "sets": 3, "reps": "15-20" }
       ]
     }
   }

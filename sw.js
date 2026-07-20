@@ -1,8 +1,8 @@
 // Service worker — cache offline do app shell + dados + assets.
-// Estratégia: cache-first para estáticos, com atualização em segundo plano.
-// Ver docs/02-technical-spec.md §10. Incremente CACHE_VERSION ao mudar assets.
+// Estratégia: network-first (online busca a versão nova e atualiza o cache; offline usa o cache).
+// Ver docs/02-technical-spec.md §10. Incremente CACHE_VERSION ao mudar o precache.
 
-const CACHE_VERSION = 'gymapp-v3';
+const CACHE_VERSION = 'gymapp-v4';
 
 // Caminhos relativos ao escopo do SW (funciona em subpath do GitHub Pages).
 const PRECACHE = [
@@ -54,20 +54,17 @@ self.addEventListener('fetch', (event) => {
   // Só tratamos requisições do mesmo host (ignora imagens externas por URL).
   if (url.origin !== self.location.origin) return;
 
+  // network-first: quando online, sempre pega a versão mais nova e atualiza o cache;
+  // offline, cai para o cache. Evita servir CSS/JS desatualizados.
   event.respondWith(
-    caches.match(request).then((cached) => {
-      const network = fetch(request)
-        .then((res) => {
-          if (res && res.ok) {
-            const copy = res.clone();
-            caches.open(CACHE_VERSION).then((cache) => cache.put(request, copy));
-          }
-          return res;
-        })
-        .catch(() => cached);
-
-      // cache-first: responde do cache e revalida em segundo plano.
-      return cached || network;
-    })
+    fetch(request)
+      .then((res) => {
+        if (res && res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE_VERSION).then((cache) => cache.put(request, copy));
+        }
+        return res;
+      })
+      .catch(() => caches.match(request))
   );
 });
