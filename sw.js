@@ -2,7 +2,7 @@
 // Estratégia: network-first (online busca a versão nova e atualiza o cache; offline usa o cache).
 // Ver docs/02-technical-spec.md §10. Incremente CACHE_VERSION ao mudar o precache.
 
-const CACHE_VERSION = 'gymapp-v4';
+const CACHE_VERSION = 'gymapp-v5';
 
 // Caminhos relativos ao escopo do SW (funciona em subpath do GitHub Pages).
 const PRECACHE = [
@@ -26,7 +26,9 @@ const PRECACHE = [
   './js/ui/focus-mode.js',
   './data/workouts.json',
   './assets/icons/icon.svg',
-  './assets/icons/icon-maskable.svg',
+  './assets/icons/icon-192.png',
+  './assets/icons/icon-512.png',
+  './assets/icons/icon-maskable-512.png',
   './assets/exercises/_placeholder.svg',
 ];
 

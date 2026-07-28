@@ -14,6 +14,7 @@
   font-weight: 600;
   color: var(--text);
   background: var(--surface-2);
+  background-clip: padding-box;
   transition: transform var(--dur-fast) var(--ease), background var(--dur) var(--ease), opacity var(--dur) var(--ease);
   user-select: none;
 }
@@ -106,11 +107,11 @@
   gap: var(--space-4);
   width: 100%;
   background: var(--surface);
+  background-clip: padding-box;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-1);
   color: var(--text);
-  overflow: hidden;
   transition: border-color var(--dur) var(--ease);
 }
 .wcard--active { border-color: color-mix(in srgb, var(--rest) 55%, var(--border)); }
@@ -128,6 +129,7 @@
   text-align: left;
   padding: var(--space-16);
   background: transparent;
+  border-radius: var(--radius-md);
   color: inherit;
   transition: transform var(--dur-fast) var(--ease);
 }
@@ -150,21 +152,6 @@
 .wcard--active .wcard__status { color: var(--rest); }
 .wcard__chevron { color: var(--text-faint); flex: 0 0 auto; }
 
-/* botão remover progresso */
-.wcard__clear {
-  flex: 0 0 auto;
-  display: grid;
-  place-items: center;
-  width: 52px;
-  background: transparent;
-  border: 0;
-  border-left: 1px solid var(--border);
-  color: var(--text-faint);
-  transition: color var(--dur) var(--ease), background var(--dur) var(--ease);
-}
-.wcard__clear:active { background: var(--surface-2); color: var(--danger); }
-.wcard__clear .icon svg { width: 20px; height: 20px; }
-
 .badge {
   padding: 2px var(--space-8);
   background: var(--accent);
@@ -185,6 +172,7 @@
   text-align: left;
   padding: var(--space-12);
   background: var(--surface);
+  background-clip: padding-box;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-1);
@@ -343,6 +331,7 @@
   min-height: var(--touch);
   padding: var(--space-12);
   background: var(--surface-2);
+  background-clip: padding-box;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   color: var(--text);
@@ -355,6 +344,7 @@
 /* ---- Execução -------------------------------------------------------------- */
 .exec-wrap {
   background: var(--surface);
+  background-clip: padding-box;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   padding: var(--space-12) var(--space-16);
@@ -368,6 +358,7 @@
 /* ---- Timer de descanso ----------------------------------------------------- */
 .rest {
   background: color-mix(in srgb, var(--rest) 12%, var(--surface));
+  background-clip: padding-box;
   border: 1px solid color-mix(in srgb, var(--rest) 40%, var(--border));
   border-radius: var(--radius-md);
   padding: var(--space-16);
